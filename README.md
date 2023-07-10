@@ -1,2 +1,2 @@
 # whbarndt.github.io
-Weebsite
+Website for Blog, Research, and Tutoring Services
