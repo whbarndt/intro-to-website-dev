@@ -1,27 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Hunter Barndt's Website </title>
-        <meta name="description" content="This is my (Hunter Barndt's) web page. Used for tutoring and my personal blogs and research." />
-        <meta name="keywords" content="William, Hunter, Barndt, William Hunter Barndt, tutoring, blog" />
-        <meta name="beware" content="https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
-        <meta name="robots" content="nofollow" />
-        <meta http-equiv="author" content="William Hunter Barndt" />
-        <meta http-equiv="pragma" content="no-cache" />
-        <link href="css/bio.css" type="text/css" rel="stylesheet" />
+        {% include header.html %}
     </head>
     <body>
         <div id="header">
-            <img src="images/skipper.png" class="profile" alt="Photo of a chocolate coloured labrodoodle panting while on a hike up a mountain" />
-            <h1 id="title"> Adventures in Learning </h1>
-            <div id="nav">
-                <ul>
-                    <li class="site"><a href="index.html">Home</a>
-                    <li class="site"><a href="bio.html">Bio</a>
-                    <li class="site"><a href="tutoring.html">Tutoring</a>
-                    <li class="site"><a href="blog.html">Blog</a>
-                </ul>
-            </div>
+            {% include navigation_bar.html %}
         </div>
 
         <div id="bio">
@@ -32,8 +16,6 @@
                 <a href="https://github.com/whbarndt">My Github </a>
             </p>
         </div>
-
-        
 
         <div id="research">
             <h2 id="middle"> Current Learning/Research </h2>
